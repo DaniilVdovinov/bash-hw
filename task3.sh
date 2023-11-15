@@ -29,11 +29,6 @@ function check_correct() {
 
 function get_space_index() {
   get_index "$DEL"
-#    for i in "${!numbers[@]}"; do
-#       if [[ "${numbers[$i]}" = "$DEL" ]]; then
-#           echo "${i}";
-#       fi
-#    done
 }
 
 function get_index() {
